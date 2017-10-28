@@ -29,11 +29,11 @@ export default class Login extends Component {
   render() {
     return(
       <main className='col-md-12'>
-        <h3>Авторизация</h3>
-        <p>Введите логин:</p>
+        <h3>Sign in</h3>
+        <p>Enter your login: (to get access to admin page type "admin")</p>
         <form onSubmit={this.checkLogin} action=''>
           <input type='text'/>
-          <input type='submit' value='Войти' />
+          <input type='submit' value='Sign In' />
         </form>
       </main>
     );

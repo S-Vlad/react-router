@@ -8,10 +8,10 @@ export default class Header extends Component {
     return(
       <header>
         <ul className='nav nav-pills'>
-          <li><NavLink to='/' activeClassName='active' exact={true}>Главная</NavLink></li>
-          <li><NavLink to='/admin' activeClassName='active'>Админ-панель</NavLink></li>
-          <li><NavLink to='/list'  activeClassName='active'>Жанры</NavLink></li>
-          <li><NavLink to='/login' activeClassName='active'>Войти</NavLink></li>
+          <li><NavLink to='/' activeClassName='active' exact={true}>Main</NavLink></li>
+          <li><NavLink to='/admin' activeClassName='active'>Admin</NavLink></li>
+          <li><NavLink to='/list'  activeClassName='active'>Genres</NavLink></li>
+          <li><NavLink to='/login' activeClassName='active'>Sign In</NavLink></li>
         </ul>
         <hr/>
       </header>

@@ -25,7 +25,7 @@ export default class Genre extends Component {
         )
       });
     } else {
-      releaseList = 'Релизов нет';
+      releaseList = 'There is no releases';
     }
 
     return(

@@ -6,7 +6,7 @@ export default class NotFound extends Component {
   render() {
     return(
       <main className='col-md-12'>
-        <h3>Страница не найдена. Вернуться на <Link to='/'>главную</Link> страницу</h3>
+        <h3>Page not found. Go to <Link to='/'>main</Link> page</h3>
       </main>
     );
   }

@@ -13,7 +13,7 @@ export default class Admin extends Component {
   render() {
     return(
       <main className='col-md-12'>
-        <h3>Администраторская</h3>
+        <h3>Admin page</h3>
       </main>
     );
   }

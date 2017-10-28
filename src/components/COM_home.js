@@ -6,11 +6,11 @@ export default class Home extends Component {
   render() {
     return(
       <main className='col-md-12'>
-        <h3>Главная страница</h3>
-        <p>Перейти на страницу жанра:</p>
+        <h3>Main page</h3>
+        <p>Go to genre page:</p>
         <form onSubmit={this.submitHandler} action=''>
-          <input placeholder='Введите жанр' type='text' />
-          <input type='submit' value='Перейти' />
+          <input placeholder='Enter some genre' type='text' />
+          <input type='submit' value='Go' />
         </form>
       </main>
     );

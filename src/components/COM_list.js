@@ -43,14 +43,14 @@ export default class List extends Component {
     return(
       <main className='col-md-12'>
         <div>
-          <h3> Список жанров </h3>
+          <h3>List of genres</h3>
         </div>
         <div>
           <ul>
             {genreList}
           </ul>
         </div>
-        <h3>Новые релизы:</h3>
+        <h3>New releases:</h3>
         <ul>
           {releaseList}
         </ul>
