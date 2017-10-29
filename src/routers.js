@@ -16,7 +16,7 @@ export const routes = (
   //exact необходим, если ссылка состоит из нескольких динамически генерирующихся частей, что позволит обращаться к нужному шаблону и выдавать 'notFound' страницу, если такой не сущесвует
 
   <BrowserRouter>
-    <div className="container">
+    <div className='container'>
       <Header />
       <Switch>
         <Route exact path='/' component={Home} /> {/*'exact' указывает на точное соответствие*/}

@@ -27,7 +27,8 @@
   to { transform: rotate(360deg); }
 }
 
-.active {
-  font-weight: bold;
-  background-color: #eee;
+.nav-tabs li > a.active {
+  color: #fff;
+  background-color: #337ab7;
 }
+
