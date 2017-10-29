@@ -13,7 +13,6 @@ export default class Header extends Component {
           <li><NavLink to='/list'  activeClassName='active'>Genres</NavLink></li>
           <li><NavLink to='/login' activeClassName='active'>Sign In</NavLink></li>
         </ul>
-        <hr/>
       </header>
     );
   }

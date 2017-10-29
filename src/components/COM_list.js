@@ -41,7 +41,7 @@ export default class List extends Component {
     });
 
     return(
-      <main className='col-md-12'>
+      <main>
         <div>
           <h3>List of genres</h3>
         </div>

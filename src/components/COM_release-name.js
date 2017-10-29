@@ -6,7 +6,7 @@ export default class ReleaseName extends Component {
     let params = this.props.match.params;
 
     return(
-      <main className='col-md-12'>
+      <main>
         <h3>{params.genre.replace(/-/g,' ').toUpperCase()}</h3>
         <p>{params.bandname.replace(/-/g,' ')} - {params.releasename.replace(/-/g,' ')}</p>
       </main>

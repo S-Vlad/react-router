@@ -28,7 +28,7 @@ export default class Login extends Component {
 
   render() {
     return(
-      <main className='col-md-12'>
+      <main>
         <h3>Sign in</h3>
         <p>Enter your login: (to get access to admin page type "admin")</p>
         <form onSubmit={this.checkLogin} action=''>

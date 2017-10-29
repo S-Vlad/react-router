@@ -16,13 +16,13 @@ export const routes = (
   //exact необходим, если ссылка состоит из нескольких динамически генерирующихся частей, что позволит обращаться к нужному шаблону и выдавать 'notFound' страницу, если такой не сущесвует
 
   <BrowserRouter>
-    <div className='container'>
+    <div>
       <Header />
       <Switch>
         <Route exact path='/' component={Home} /> {/*'exact' указывает на точное соответствие*/}
         <Route path='/list' component={List} />
         <Route exact path='/genre/:genre' component={Genre} />
-        <Route exact path='/genre/:genre/:bandname/:releasename' component={ReleaseName}/>
+        <Route path='/genre/:genre/:bandname/:releasename' component={ReleaseName}/>
         <Route path='/admin'
           render={ () => (Admin.isAdmin() ? (<Admin />) : (<Redirect to='/' />)) }
         /> {/*рендерим компонент если логин='admin', иначе редиректим*/}

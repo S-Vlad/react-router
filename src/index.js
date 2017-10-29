@@ -1,11 +1,12 @@
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import { routes } from './routes.js';
+import App from './containers/app.js';
 
 
 ReactDOM.render(
-  routes
+  <App />
   ,document.getElementById('root')
 );
 

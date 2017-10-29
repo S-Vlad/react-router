@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export default class Home extends Component {
   render() {
     return(
-      <main className='col-md-12'>
+      <main>
         <h3>Main page</h3>
         <p>Go to genre page:</p>
         <form onSubmit={this.submitHandler} action=''>

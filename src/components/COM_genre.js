@@ -29,7 +29,7 @@ export default class Genre extends Component {
     }
 
     return(
-      <main className='col-md-12'>
+      <main>
         <h3>{genre.toUpperCase()}</h3>
         {releaseList}
       </main>
